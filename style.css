@@ -1,0 +1,121 @@
+
+
+.header{
+    border: currentColor;
+    display: flex;
+    outline: currentColor;
+    justify-content:space-between;
+    background-color: #000000ec;
+    font-family:fantasy;
+    font-variant: small-caps;
+    align-items: center;
+    /* ; */
+    /* font-weight:lighter; */
+    /* font-size: 16px; */
+}
+
+.ts{
+    padding-left: 30%;
+}
+
+.menu{
+    background-color:#e9e9e9;
+    /* display: flex; */
+    justify-content:space-around;
+    align-self: center;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+    /* margin-right: 0rem; */
+    flex-wrap: wrap;
+    align-self: center;
+    /* padding: 50px; */
+}
+
+.menu a{
+    padding: 1rem;
+    color: rgb(0, 0, 0);
+    text-anchor:middle;
+    text-decoration:rgb(205, 50, 50);
+    font-family: fantasy;
+
+}
+
+ .menu a:link {
+    color: rgb(0, 0, 0);
+  }
+  
+ .menu  a:visited {
+    color: rgb(0, 0, 0);
+  }
+  
+ .menu a:hover {
+    color: rgb(115, 255, 0);
+  }
+  
+ .menu a:active {
+    color: rgb(0, 119, 255);
+  }
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.game :hover{
+    cursor: pointer;
+}
+
+.imag{
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+    justify-content: center;
+}
+
+h1{
+    /* margin-left: 37rem; */
+    color: rgb(255, 255, 255);
+    /* background-color:rgb(255, 117, 244); */
+}
+
+h3{
+    /* margin-left:150px; */
+    /* text-align: justify; */
+    font-family: cursive;
+    font-style:oblique 1deg;
+    /* font-display:inherit; */
+}
+
+.game{
+    background-color: #292929;
+    border: 10px solid;
+    border-color:#292929;
+    border-style:ridge;
+    /* align-content: center; */
+    margin: 4rem;
+    /* flex-wrap: wrap; */
+    align-content: center;
+    align-items: center;
+}
+
+html{
+    background-color: #6d6d6d;
+    border: 20rem;
+}
+
+.game a{
+    align-self: center;
+    text-decoration:yellowgreen;
+    font-family:cursive;
+}
+
+.header a{
+    font-style: oblique 1deg;
+}
+
+*{
+    color: white;
+}
